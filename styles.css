@@ -1,0 +1,53 @@
+label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  input {
+    width: 100%;
+    background-color: rgb(134, 134, 236);
+    color: white;
+  }
+  select {
+    display: block;
+    width: 300px;
+    height: 20px
+  }
+  body {
+    background-color: rgb(14, 14, 104);
+    color: white;
+    font-family: cursive;
+  }
+  input[type="number"] {
+    height: 30px;
+  }
+  option {
+    background-color: rgb(134, 134, 236);
+    color: white;
+  }
+  textarea {
+    display: block;
+    width: 300px;
+     background-color: rgb(134, 134, 236);
+    color: white;
+  }
+  img {
+    width: 100px;
+    height: 100px;
+    margin-left: 125px;
+    }
+    h1 {
+      text-align: center;
+    }
+    #description {
+    text-align: center;  
+    }
+    .inline {
+      width: unset;
+      margin: 0 0.5em 0 0;
+    }
+    button {
+      width: 120px;
+      height: 25px;
+      background-color: rgb(134, 134, 236);
+      color: rgb(255, 255, 255)
+    }

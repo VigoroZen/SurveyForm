@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="utf-8">
+        <title>IPad Survey Form</title>
+          </head>
+          <body>
+            <h1 id="title">IPad Survey Form</h1>
+             <img src="https://images.unsplash.com/photo-1585770536735-27993a080586?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+            <p id="description">Thanks for buying our IPad! Please fill out this form to give us some feedback.</p>
+            <form id="survey-form">
+              <label id="name-label">Enter your name: <input id="name" type="text" required placeholder="Put your name here"/>
+              <label id="email-label">Enter your e-mail: <input id="email" type="email" required placeholder="Put your email here"/>
+              <label id="number-label">Enter your phone number: <input id="number" type="number" required min="6" max="11" placeholder="Put your phone number here"/>
+              <label id="age-label">Enter your age(optional): <input id="age" type="number" min="13" placeholder="Put your age here"/>
+              <p>How was your experience with this IPad?</p>
+              <select required id="dropdown">
+                <option>Please choose one</option>
+                <option>Amazing</option>
+                <option>Good</option>
+                <option>OK</option>
+                <option>Bad</option>
+                </select>
+                <p>Would you recommend it for someone else?</p>
+              <select required id="dropdown">
+                <option>Definitely</option>
+                <option>Probably</option>
+                <option>Maybe</option>
+                <option>Maybe Not</option>
+                <option>NO</option>
+                </select>
+                  <p>Why?</p>
+                <textarea> </textarea>
+                  <legend>
+                    How long have you used this IPad?
+                  </legend>
+                  <label>
+                    <input type="radio" class="inline" value="6month" name="duration">
+                    6 months
+                  </label>
+                  <label>
+                    <input type="radio" class="inline" value="1yr" name="duration">
+                    1 year
+                  </label>
+                  <label>
+                    <input type="radio" class="inline" value="2+yrs" name="duration">
+                    2+ years
+                  </label>
+                  <label>What have you used this IPad for?
+                    </label>
+                    <label>
+                      <input type="checkbox" class="inline" value="purpose">
+                   Work
+                   </label>
+                   <label>
+                      <input type="checkbox" class="inline" value="purpose">
+                   Gaming
+                   </label>
+                   <label>
+                      <input type="checkbox" class="inline" value="purpose">
+                   Education
+                   </label>
+                   <label>
+                      <input type="checkbox" class="inline" value="purpose">
+                   Other
+                   </label>
+              <button type ="submit" id="submit">
+                Submit 
+                </button>
+            </form>
+        
+</body>
+</html>
